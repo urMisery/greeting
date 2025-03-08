@@ -11,7 +11,7 @@ export default function App() {
       src: [import.meta.env.BASE_URL + 'music/soft-melody.mp3'],
       autoplay: true,
       loop: true,
-      volume: 1,
+      volume: 2.5,
     });
     return () => sound.stop();
   }, []);
